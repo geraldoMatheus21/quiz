@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { doc, getDoc } from "firebase/firestore";
 import { db } from "../firebase/config";
-import { addQuestion, getQuestions } from "../services/quizService";
+import { addQuestion, getQuestions } from "../services/quizservice";
 
 export default function EditQuiz() {
   const { quizId } = useParams();

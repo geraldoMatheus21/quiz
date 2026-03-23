@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { getQuizByCode } from "../services/quizService";
+import { getQuizByCode } from "../services/quizservice";
 
 export default function StudentEntry() {
   const [code, setCode] = useState("");
